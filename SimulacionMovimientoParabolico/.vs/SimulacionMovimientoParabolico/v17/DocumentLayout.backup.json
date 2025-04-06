@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\57317\\Simulacion-de-movimiento-parabolico\\SimulacionMovimientoParabolico\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D84980C-360D-4017-992E-3095F863221A}|SimulacionMovimientoParabolico.csproj|c:\\users\\57317\\simulacion-de-movimiento-parabolico\\simulacionmovimientoparabolico\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D84980C-360D-4017-992E-3095F863221A}|SimulacionMovimientoParabolico.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D84980C-360D-4017-992E-3095F863221A}|SimulacionMovimientoParabolico.csproj|c:\\users\\57317\\simulacion-de-movimiento-parabolico\\simulacionmovimientoparabolico\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8D84980C-360D-4017-992E-3095F863221A}|SimulacionMovimientoParabolico.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D84980C-360D-4017-992E-3095F863221A}|SimulacionMovimientoParabolico.csproj|c:\\users\\57317\\simulacion-de-movimiento-parabolico\\simulacionmovimientoparabolico\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D84980C-360D-4017-992E-3095F863221A}|SimulacionMovimientoParabolico.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\57317\\Simulacion-de-movimiento-parabolico\\SimulacionMovimientoParabolico\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\57317\\Simulacion-de-movimiento-parabolico\\SimulacionMovimientoParabolico\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T01:41:11.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\57317\\Simulacion-de-movimiento-parabolico\\SimulacionMovimientoParabolico\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\57317\\Simulacion-de-movimiento-parabolico\\SimulacionMovimientoParabolico\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T01:40:59.488Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\57317\\Simulacion-de-movimiento-parabolico\\SimulacionMovimientoParabolico\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\57317\\Simulacion-de-movimiento-parabolico\\SimulacionMovimientoParabolico\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAF8BAAAAAAAAAAAAwGsBAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T01:40:51.742Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

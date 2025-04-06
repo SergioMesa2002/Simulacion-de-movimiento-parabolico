@@ -48,23 +48,17 @@
             lblResultados = new Label();
             lblDatosSimulacion = new Label();
             lblVisualizacion = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView).BeginInit();
             SuspendLayout();
-            // 
-            // lblTitulo
-            // 
-            lblTitulo.AutoSize = true;
-            lblTitulo.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            lblTitulo.Location = new Point(232, 9);
-            lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(286, 30);
-            lblTitulo.TabIndex = 11;
-            lblTitulo.Text = "Simulación de Movimiento Parabólico";
             // 
             // btnCalcular
             // 
             btnCalcular.BackColor = Color.LightGreen;
-            btnCalcular.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnCalcular.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnCalcular.Location = new Point(40, 231);
             btnCalcular.Name = "btnCalcular";
             btnCalcular.Size = new Size(120, 30);
@@ -76,7 +70,7 @@
             // btnReiniciar
             // 
             btnReiniciar.BackColor = Color.LightCoral;
-            btnReiniciar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnReiniciar.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnReiniciar.Location = new Point(166, 231);
             btnReiniciar.Name = "btnReiniciar";
             btnReiniciar.Size = new Size(120, 30);
@@ -120,51 +114,6 @@
             txtGravedad.Size = new Size(120, 23);
             txtGravedad.TabIndex = 5;
             // 
-            // lblV0
-            // 
-            lblV0.AutoSize = true;
-            lblV0.Location = new Point(40, 76);
-            lblV0.Name = "lblV0";
-            lblV0.Size = new Size(117, 15);
-            lblV0.TabIndex = 13;
-            lblV0.Text = "Velocidad inicial (m/s):";
-            // 
-            // lblAngle
-            // 
-            lblAngle.AutoSize = true;
-            lblAngle.Location = new Point(40, 105);
-            lblAngle.Name = "lblAngle";
-            lblAngle.Size = new Size(106, 15);
-            lblAngle.TabIndex = 14;
-            lblAngle.Text = "Ángulo (grados):";
-            // 
-            // lblX0
-            // 
-            lblX0.AutoSize = true;
-            lblX0.Location = new Point(40, 134);
-            lblX0.Name = "lblX0";
-            lblX0.Size = new Size(108, 15);
-            lblX0.TabIndex = 15;
-            lblX0.Text = "Posición inicial X (m):";
-            // 
-            // lblY0
-            // 
-            lblY0.AutoSize = true;
-            lblY0.Location = new Point(40, 163);
-            lblY0.Name = "lblY0";
-            lblY0.Size = new Size(108, 15);
-            lblY0.TabIndex = 16;
-            lblY0.Text = "Posición inicial Y (m):";
-            // 
-            // lblGravedad
-            // 
-            lblGravedad.AutoSize = true;
-            lblGravedad.Location = new Point(40, 192);
-            lblGravedad.Name = "lblGravedad";
-            lblGravedad.Size = new Size(102, 15);
-            lblGravedad.TabIndex = 17;
-            lblGravedad.Text = "Gravedad (m/s²):";
-            // 
             // dataGridView
             // 
             dataGridView.AllowUserToAddRows = false;
@@ -175,7 +124,6 @@
             dataGridView.Name = "dataGridView";
             dataGridView.ReadOnly = true;
             dataGridView.RowHeadersVisible = false;
-            dataGridView.RowTemplate.Height = 25;
             dataGridView.Size = new Size(410, 140);
             dataGridView.TabIndex = 6;
             // 
@@ -192,69 +140,171 @@
             // lblTiempoVuelo
             // 
             lblTiempoVuelo.AutoSize = true;
-            lblTiempoVuelo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTiempoVuelo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblTiempoVuelo.Location = new Point(40, 290);
             lblTiempoVuelo.Name = "lblTiempoVuelo";
-            lblTiempoVuelo.Size = new Size(115, 15);
+            lblTiempoVuelo.Size = new Size(121, 15);
             lblTiempoVuelo.TabIndex = 8;
             lblTiempoVuelo.Text = "Tiempo de vuelo: 0 s";
             // 
             // lblAlturaMaxima
             // 
             lblAlturaMaxima.AutoSize = true;
-            lblAlturaMaxima.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblAlturaMaxima.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblAlturaMaxima.Location = new Point(40, 320);
             lblAlturaMaxima.Name = "lblAlturaMaxima";
-            lblAlturaMaxima.Size = new Size(111, 15);
+            lblAlturaMaxima.Size = new Size(115, 15);
             lblAlturaMaxima.TabIndex = 9;
             lblAlturaMaxima.Text = "Altura máxima: 0 m";
             // 
             // lblDesplazamiento
             // 
             lblDesplazamiento.AutoSize = true;
-            lblDesplazamiento.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblDesplazamiento.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblDesplazamiento.Location = new Point(40, 350);
             lblDesplazamiento.Name = "lblDesplazamiento";
-            lblDesplazamiento.Size = new Size(173, 15);
+            lblDesplazamiento.Size = new Size(182, 15);
             lblDesplazamiento.TabIndex = 10;
             lblDesplazamiento.Text = "Desplazamiento horizontal: 0 m";
+            // 
+            // lblTitulo
+            // 
+            lblTitulo.AutoSize = true;
+            lblTitulo.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            lblTitulo.Location = new Point(232, 9);
+            lblTitulo.Name = "lblTitulo";
+            lblTitulo.Size = new Size(403, 30);
+            lblTitulo.TabIndex = 11;
+            lblTitulo.Text = "Simulación de Movimiento Parabólico";
+            // 
+            // lblV0
+            // 
+            lblV0.AutoSize = true;
+            lblV0.Location = new Point(40, 76);
+            lblV0.Name = "lblV0";
+            lblV0.Size = new Size(127, 15);
+            lblV0.TabIndex = 13;
+            lblV0.Text = "Velocidad inicial (m/s):";
+            // 
+            // lblAngle
+            // 
+            lblAngle.AutoSize = true;
+            lblAngle.Location = new Point(40, 105);
+            lblAngle.Name = "lblAngle";
+            lblAngle.Size = new Size(96, 15);
+            lblAngle.TabIndex = 14;
+            lblAngle.Text = "Ángulo (grados):";
+            // 
+            // lblX0
+            // 
+            lblX0.AutoSize = true;
+            lblX0.Location = new Point(40, 134);
+            lblX0.Name = "lblX0";
+            lblX0.Size = new Size(121, 15);
+            lblX0.TabIndex = 15;
+            lblX0.Text = "Posición inicial X (m):";
+            // 
+            // lblY0
+            // 
+            lblY0.AutoSize = true;
+            lblY0.Location = new Point(40, 163);
+            lblY0.Name = "lblY0";
+            lblY0.Size = new Size(121, 15);
+            lblY0.TabIndex = 16;
+            lblY0.Text = "Posición inicial Y (m):";
+            // 
+            // lblGravedad
+            // 
+            lblGravedad.AutoSize = true;
+            lblGravedad.Location = new Point(40, 192);
+            lblGravedad.Name = "lblGravedad";
+            lblGravedad.Size = new Size(96, 15);
+            lblGravedad.TabIndex = 17;
+            lblGravedad.Text = "Gravedad (m/s²):";
             // 
             // lblResultados
             // 
             lblResultados.AutoSize = true;
-            lblResultados.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblResultados.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblResultados.Location = new Point(40, 260);
             lblResultados.Name = "lblResultados";
-            lblResultados.Size = new Size(161, 21);
+            lblResultados.Size = new Size(151, 21);
             lblResultados.TabIndex = 18;
             lblResultados.Text = "Resultados Físicos:";
             // 
             // lblDatosSimulacion
             // 
             lblDatosSimulacion.AutoSize = true;
-            lblDatosSimulacion.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblDatosSimulacion.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblDatosSimulacion.Location = new Point(320, 49);
             lblDatosSimulacion.Name = "lblDatosSimulacion";
-            lblDatosSimulacion.Size = new Size(203, 21);
+            lblDatosSimulacion.Size = new Size(189, 21);
             lblDatosSimulacion.TabIndex = 19;
             lblDatosSimulacion.Text = "Datos de la Simulación:";
             // 
             // lblVisualizacion
             // 
             lblVisualizacion.AutoSize = true;
-            lblVisualizacion.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblVisualizacion.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblVisualizacion.Location = new Point(320, 226);
             lblVisualizacion.Name = "lblVisualizacion";
-            lblVisualizacion.Size = new Size(223, 21);
+            lblVisualizacion.Size = new Size(228, 21);
             lblVisualizacion.TabIndex = 20;
             lblVisualizacion.Text = "Visualización de Trayectoria:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(45, 498);
+            label2.Name = "label2";
+            label2.Size = new Size(122, 21);
+            label2.TabIndex = 22;
+            label2.Text = "INTEGRANTES:";
+            label2.Click += label2_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(173, 498);
+            label3.Name = "label3";
+            label3.Size = new Size(213, 21);
+            label3.TabIndex = 23;
+            label3.Text = "Sebastian Camargo Cuesto";
+            label3.Click += label3_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(173, 519);
+            label4.Name = "label4";
+            label4.Size = new Size(164, 21);
+            label4.TabIndex = 24;
+            label4.Text = "Sergio Mesa Benitez";
+            label4.Click += label4_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Location = new Point(173, 540);
+            label5.Name = "label5";
+            label5.Size = new Size(119, 21);
+            label5.TabIndex = 25;
+            label5.Text = "Gabriel Correa";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightBlue;
-            ClientSize = new Size(754, 501);
+            ClientSize = new Size(912, 583);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
             Controls.Add(lblVisualizacion);
             Controls.Add(lblDatosSimulacion);
             Controls.Add(lblResultados);
@@ -281,6 +331,7 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Simulador de Movimiento Parabólico";
+            WindowState = FormWindowState.Maximized;
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView).EndInit();
             ResumeLayout(false);
@@ -311,5 +362,9 @@
         private System.Windows.Forms.Label lblResultados;
         private System.Windows.Forms.Label lblDatosSimulacion;
         private System.Windows.Forms.Label lblVisualizacion;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Label label5;
     }
 }
