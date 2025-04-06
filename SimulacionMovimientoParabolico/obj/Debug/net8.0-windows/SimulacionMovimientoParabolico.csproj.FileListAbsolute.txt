@@ -14,3 +14,20 @@ C:\Users\Sergio\Documents\Ingenieria en sistemas\Decimo semestre\Simulacion\Tall
 C:\Users\Sergio\Documents\Ingenieria en sistemas\Decimo semestre\Simulacion\Taller 2\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\SimulacionMovimientoParabolico.pdb
 C:\Users\Sergio\Documents\Ingenieria en sistemas\Decimo semestre\Simulacion\Taller 2\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\SimulacionMovimientoParabolico.genruntimeconfig.cache
 C:\Users\Sergio\Documents\Ingenieria en sistemas\Decimo semestre\Simulacion\Taller 2\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\ref\SimulacionMovimientoParabolico.dll
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\SimulacionMovimientoParabolico.Form1.resources
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\SimulacionMovimientoParabolico.csproj.GenerateResource.cache
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\SimulacionMovimientoParabolico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\SimulacionMovimientoParabolico.AssemblyInfoInputs.cache
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\SimulacionMovimientoParabolico.AssemblyInfo.cs
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\SimulacionMovimientoParabolico.csproj.CoreCompileInputs.cache
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\SimulacionMovimientoParabolico.sourcelink.json
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\SimulacionMovimientoParabolico.dll
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\refint\SimulacionMovimientoParabolico.dll
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\SimulacionMovimientoParabolico.pdb
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\bin\Debug\net8.0-windows\SimulacionMovimientoParabolico.exe
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\bin\Debug\net8.0-windows\SimulacionMovimientoParabolico.deps.json
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\bin\Debug\net8.0-windows\SimulacionMovimientoParabolico.runtimeconfig.json
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\bin\Debug\net8.0-windows\SimulacionMovimientoParabolico.dll
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\bin\Debug\net8.0-windows\SimulacionMovimientoParabolico.pdb
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\SimulacionMovimientoParabolico.genruntimeconfig.cache
+C:\Users\57317\Simulacion-de-movimiento-parabolico\SimulacionMovimientoParabolico\obj\Debug\net8.0-windows\ref\SimulacionMovimientoParabolico.dll
